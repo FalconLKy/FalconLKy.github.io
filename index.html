@@ -1,6 +1,157 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Eu amo a Thayna</h1>
-</body>
+ <head>
+  <title>
+   Falcon
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .header {
+            background-image: url('https://placehold.co/1920x300');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            position: relative;
+        }
+        .profile-pic {
+            position: absolute;
+            bottom: -50px;
+            left: 20px;
+            border-radius: 10px;
+            border: 5px solid #1a1a1a;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            margin-left: 140px; /* Adjusted to align with the profile picture */
+        }
+        .content h1 {
+            font-size: 24px; /* Reduced font size */
+            margin: 0;
+        }
+        .content blockquote {
+            font-style: italic;
+            color: #cccccc;
+            font-size: 14px; /* Reduced font size */
+        }
+        .content blockquote::before {
+            content: "“";
+        }
+        .content blockquote::after {
+            content: "”";
+        }
+        .content blockquote footer {
+            display: block;
+            margin-top: 10px;
+            font-size: 12px; /* Reduced font size */
+            color: #999999;
+        }
+        .sidebar {
+            position: absolute;
+            top: 450px; /* Adjusted to move the sidebar down */
+            left: 20px;
+            width: 200px;
+        }
+        .sidebar .column {
+            background-color: #2a2a2a;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .sidebar .column h2 {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+            background-color: #1a3d1a;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .sidebar .column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar .column ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar .column ul li i {
+            margin-right: 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Profile picture of a character with long hair and a hoodie" class="profile-pic" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-zdiXBxdkSOtxmDmydH4pE5fE.png?st=2024-09-03T17%3A05%3A45Z&amp;se=2024-09-03T19%3A05%3A45Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-02T23%3A59%3A09Z&amp;ske=2024-09-03T23%3A59%3A09Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=o4srMFuixLsqrzaxTewt155zCLSO/JRczxiSGkq/ynI%3D" width="100"/>
+  </div>
+  <div class="content">
+   <h1>
+    Falcon
+   </h1>
+   <blockquote>
+    Em algum lugar, algo incrível está esperando para ser descoberto
+    <footer>
+     — Carl Sagan
+    </footer>
+   </blockquote>
+  </div>
+  <div class="sidebar">
+   <div class="column">
+    <h2>
+     Eu
+    </h2>
+    <ul>
+     <li>
+      <i class="fas fa-desktop">
+      </i>
+      Meu pc
+     </li>
+     <li>
+      <i class="fas fa-code">
+      </i>
+      VS code
+     </li>
+    </ul>
+   </div>
+   <div class="column">
+    <h2>
+     Produtividade
+    </h2>
+    <ul>
+     <li>
+      <i class="fas fa-laptop">
+      </i>
+      Curso DESEC
+     </li>
+     <li>
+      <i class="fas fa-check-square">
+      </i>
+      Checklist Pentest Web
+     </li>
+    </ul>
+   </div>
+   <div class="column">
+    <h2>
+     estudos
+    </h2>
+    <ul>
+     <li>
+      <i class="fas fa-book">
+      </i>
+      TryHackMe
+     </li>
+     <li>
+      <i class="fas fa-book">
+      </i>
+      Hackingclub
+     </li>
+    </ul>
+   </div>
+  </div>
+ </body>
 </html>
