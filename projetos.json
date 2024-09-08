@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Projeto 1",
+        "horasEstimadas": 50,
+        "responsavel": "João",
+        "dataFinal": "2024-09-15"
+    },
+    {
+        "nome": "Projeto 2",
+        "horasEstimadas": 30,
+        "responsavel": "Maria",
+        "dataFinal": "2024-09-20"
+    }
+]
