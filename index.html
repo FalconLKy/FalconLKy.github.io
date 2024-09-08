@@ -3,44 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Hour Tracker</title>
+    <title>Projetos</title>
     <style>
-        /* Add some basic styling to our table */
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
+        /* Adicione estilos para a tabela e botões aqui */
     </style>
 </head>
 <body>
-    <h1>Project Hour Tracker</h1>
-    <table id="project-table">
+    <h1>Projetos</h1>
+    <table id="projetos-table">
         <thead>
             <tr>
-                <th>Project</th>
-                <th>Expected Hours</th>
-                <th>Elapsed Time</th>
-                <th>Actions</th>
+                <th>Nome do Projeto</th>
+                <th>Horas Estimadas</th>
+                <th>Responsável</th>
+                <th>Data Final</th>
+                <th>Horas Trabalhadas</th>
+                <th>Ações</th>
             </tr>
         </thead>
-        <tbody id="project-list">
-            <!-- We'll dynamically add projects here -->
+        <tbody id="projetos-tbody">
+            <!-- Os projetos serão adicionados dinamicamente aqui -->
         </tbody>
     </table>
-
-    <!-- Add a form to add new projects -->
-    <form id="add-project-form">
-        <label for="project-name">Project Name:</label>
-        <input type="text" id="project-name" name="project-name">
-        <label for="expected-hours">Expected Hours:</label>
-        <input type="number" id="expected-hours" name="expected-hours">
-        <button type="submit">Add Project</button>
-    </form>
+    <button id="add-projeto-btn">Adicionar Projeto</button>
 
     <script src="script.js"></script>
 </body>
